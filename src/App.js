@@ -17,6 +17,7 @@ function App() {
     };
 
     return (
+        <div className='body'>
         <div className="app">
             <h1>To-Do List</h1>
             <div className="input">
@@ -38,6 +39,7 @@ function App() {
                     </li>
                 ))}
             </ul>
+        </div>
         </div>
     );
 }
